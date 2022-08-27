@@ -1,0 +1,231 @@
+/* common style start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 3rem;
+    color: #121212;
+    width: 50%;
+}
+.para{
+    font-size: 1rem;
+    color: #121212;
+    width: 50%;
+    margin: 20px 0; 
+}
+.btn {
+    height: 55px;
+    width: 155px;
+    border-radius: 8px;
+    background-color: #F75959;
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 10px #4a4b4eeb;
+    cursor: pointer;
+    border: 2px solid #F75959;
+}
+/* common style end  */
+
+/* banner part start */
+
+.banner-img{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/kids.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.banner{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;  
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+}
+
+/* banner part end */
+/* monthly-donate-container start  */
+.monthly-donate{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.doller-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.doller-card .doller-card-item {
+    padding: 50px 50px;
+    color: #8d6e6e;
+    background-color: #f1f2ecbd;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+#selected-item{
+    border: 2px solid #F75959;
+    color:#F75959;
+    background-color: rgba(247, 84, 84, 0.2);
+}
+.custom-donate{
+    background-color: white;
+    background-image: url('../images/doller-sign.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid #ded3d3;
+}
+/* monthly-donate-container end  */
+
+/* services provide start  */
+.services-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services-container .services{
+    display: flex;
+}
+.services-container .services .service-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #afdaf347;
+    margin: 10px;
+}
+#service-item2{
+    background-color: #e76f9347; 
+}
+#service-item3{
+    background-color: #cfe76f47; 
+}
+span{
+    font-size: 85px;
+    font-weight: bold;
+    color: #36386b;
+}
+.service-item p{
+    font-size: 1rem;
+    color: #121212;
+    width: 50%;
+  
+}
+/* services provide end  */
+
+/* community part style start  */
+.community{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+}
+.community-img{
+    width: 45%;
+    height: 50%;
+    border: 15px solid gray;
+    box-shadow: 0px 0px 10px gray;
+}
+.community-img img{
+    height: 100%;
+    width: 100%;
+}
+.community-content{
+    width: 45%;
+    height: 50%;
+}
+.community-content button{
+    margin-top: 20px;
+}
+.community-content h1{
+    margin-bottom: 10px;
+}
+/* community part style end  */
+
+/* form part style start  */
+#form-container{
+    height: 80vh;
+}
+.form-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.form-input{
+    width: 600px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    margin: 5px;
+    font-size: 20px;
+}
+#comments{
+    height: 250px;
+    margin-bottom: 10px;
+}
+/* form part style end  */
+
+/* footer style start  */
+footer.container{
+    height: 25vh;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #2e2c2c;
+}
+.social-icons img{
+    cursor: pointer;
+}
+/* footer style end  */
+

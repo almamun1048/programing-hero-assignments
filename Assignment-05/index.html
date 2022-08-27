@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>chose your super five</title>
+    <!-- add favicon icon  -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!--css link -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- header part start -->
+    <header>
+     <div class="header-container">
+        <div class="header-childOne">
+          <img src="./images/messi.png" alt="">
+        </div>
+        <div class="header-childTwo">
+          <h1>Chose your super five</h1>
+          <p>A football player or footballer is a sportsperson who plays one of the different types of football. The main types of football are association football, American football, Canadian football, Australian rules football, Gaelic football, rugby league and rugby union .However, only a fraction of men's professional football players are paid at this level.</p>
+        </div>
+        <div class="header-childThree">
+            <img src="./images/fotball.png" alt="">
+        </div>
+     </div>
+    </header>
+    <!-- header part end -->
+
+    <!-- main part start  -->
+    <main>
+      <div class="container-main">
+        <section class="container-players" id="players">
+          <div class="grid-item">
+            <img src="./images/0.png" alt="">
+            <p>Lionel Messi</p>
+            <button class="btn" id="btn0">SELECT</button>
+          </div>
+          <div class="grid-item">
+            <img src="./images/1.png" alt="">
+            <p>Neymar Jr</p>
+            <button class="btn" id="btn1">SELECT</button>
+          </div>
+          <div class="grid-item">
+            <img src="./images/2.png" alt="">
+            <p>Kylian Mbappe</p>
+            <button class="btn" id="btn2">SELECT</button>
+          </div>
+          <div class="grid-item">
+            <img src="./images/3.png" alt="">
+            <p>Vitor Machado</p>
+            <button class="btn" id="btn3">SELECT</button>
+          </div>
+          <div class="grid-item">
+            <img src="./images/4.png" alt="">
+            <p>Sergio Ramos</p>
+            <button class="btn" id="btn4">SELECT</button>
+          </div>
+          <div class="grid-item">
+            <img src="./images/5.png" alt="">
+            <p>Renato Sanches</p>
+            <button class="btn" id="btn5">SELECT</button>
+          </div>
+          <div class="grid-item">
+            <img src="./images/6.png" alt="">
+            <p>Cristiano Ronaldo</p>
+            <button class="btn" id="btn6">SELECT</button>
+          </div>
+          <div class="grid-item">
+            <img src="./images/7.png" alt="">
+            <p>Ronaldinho</p>
+            <button class="btn" id="btn7">SELECT</button>
+          </div>
+          <div class="grid-item">
+            <img src="./images/8.png" alt="">
+            <p>Di Maria</p>
+            <button class="btn" id="btn8">SELECT</button>
+          </div>
+        </section>
+        <section class="container-calculate">
+          <div class="list">
+            <p class="list-top-text">Selected-Five</p>
+            <ul id="list-container">
+            </ul>
+          </div>
+
+          <div class="budget">
+            <p class="budget-head-text">Budget</p>
+            <div>
+              <label for="">Per Player </label>
+              <input id="input-per-player" type="text">
+            </div>
+            <div>
+              <button class="btn" id="palyers-cost-btn">Calculate</button>
+            </div>
+            <div>
+              <small>Player Expenses :<span id="players-total-cost"></span> </small>
+              <div>
+                <label for="">Manager</label>
+                <input id="manager-cost-field" type="text">
+              </div>
+              <div>
+                <label for="">Coach</label>
+                <input id="coach-cost-field" type="text">
+                <button class="btn" id="total-btn">Calculate</button>
+                <p class="total">Total :<span id="total"></span></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- main part end  -->
+
+
+    <!-- footer part start  -->
+    <footer>
+      <p>Copyright @2022 AllRights Reserved</p>
+    </footer>
+    <!-- footer part end  -->
+  
+    <!--js link  -->
+    <script src="./js/select.js"></script>
+    <script src="./js/calculate.js"></script>
+  </body>
+</html>

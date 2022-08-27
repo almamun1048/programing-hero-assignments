@@ -1,0 +1,178 @@
+/* import google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+/* common css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+   color: white;
+   border-radius: 5px;
+   padding: 8px 25px;
+   font-size: 1rem;
+   font-weight: bold;
+   background-color: crimson;
+   border: 1px solid rgb(63, 63, 63);
+   box-shadow: 0px 0px 5px rgb(40, 40, 40);
+   margin-bottom: 8px;
+}
+ /* header part style start  */
+ header{
+    background-color: rgb(5, 5, 5);
+    padding: 10px;
+ }
+ header .header-container{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+ }
+ header .header-container .header-childOne{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ header .header-container .header-childOne img{
+    max-width: 100%;
+ }
+ header .header-container .header-childTwo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+ }
+ header .header-container .header-childTwo h1{
+    color: crimson;
+    font-size: 4rem;
+    margin-bottom: 20px;
+ }
+ header .header-container .header-childTwo p{
+    color: white;
+    line-height: 1.5rem;
+ }
+ header .header-container .header-childThree{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ header .header-container .header-childThree img{
+    max-width: 100%;
+ }
+ /* header part style end  */
+
+ /* main part style start   */
+
+main{
+   width: 100%;
+   padding-top: 1rem;
+   background-color: #555;
+   text-align: center;
+   padding-bottom: 20px;
+}
+main p{
+   color: white;
+   font-weight: bold;
+   font-size: 1rem;
+   text-align: center;
+   padding: 5px 0;
+}
+main .container-main{
+   width: 80%;
+   margin: auto;
+   display: flex;
+}
+main .container-main .container-players{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 1rem;
+}
+.grid-item{
+   border: 1px solid gray;  
+}
+/* calculate part style start  */
+/* list start */
+.container-calculate{
+   text-align: left;
+   margin-left: 50px;
+}
+.container-calculate .list{
+   padding: 10px;
+   border: 1px solid gray;
+   width: 250px;
+}
+.container-calculate .list ul li{
+   list-style: none;
+   color: white;
+   line-height: 2.5rem;
+   font-size: 1.3rem;
+}
+.container-calculate .list ul li p{
+   margin-left: 10px;
+   letter-spacing: 1px;
+   font-size: 1.3rem;
+}
+.container-calculate div .list-top-text{
+   font-size: 1.5rem;
+   
+}
+/* list end  */
+/* budget start  */
+.container-calculate .budget{
+   padding: 10px;
+   border: 1px solid gray;
+   width: 250px;
+   margin-top: 20px;
+   color: white;
+}
+.container-calculate .budget .budget-head-text{
+   font-size: 1.5rem;
+}
+
+.container-calculate .budget input{
+   width: 80px;
+   margin: 10px 0;
+   margin-left: 5px;
+   padding: 6px 10px;
+   border: none;
+   font-size: 20px;
+   border-radius: 5px;
+}
+.container-calculate .budget .btn{
+   width: 100%;
+   margin-bottom: 5px;
+}
+#players-total-cost{
+margin-left: 25px;
+}
+.total{
+   text-align: left;
+}
+.total>span{
+   margin-left: 25px;
+   color: rgb(67, 2, 15);
+}
+/* budget end  */
+/* calculate part style end  */
+ /* main part style end   */
+
+ /* footer part style start   */
+ footer{
+   height: 20vh;
+   background-color: rgb(5, 5, 5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ footer p{
+   color: white;
+   font-size: 1rem;
+ }
+ /* footer part style end   */
